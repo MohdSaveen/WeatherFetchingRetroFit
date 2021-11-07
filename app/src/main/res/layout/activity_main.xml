@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/SunriseShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="704dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/SunRiseView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="704dp"
+            android:text="SunRise"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/DateShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="664dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/DateView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="664dp"
+            android:text="Date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TempMaxShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="620dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TempMaxView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="620dp"
+            android:text="temperature max."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TempMinShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="572dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TempMinView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="572dp"
+            android:text="temperature min."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/FeelsLike_FShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="528dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/FeelsLike_fView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="528dp"
+            android:text="FeelsLike_F"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/FeelsLikeCShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="476dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/FeelsLikeView_CView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="476dp"
+            android:text="FeelsLikeC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/HumidityShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="424dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/HumidityView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="424dp"
+            android:text="Humidity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/WindDir"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="372dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/WindDirView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="372dp"
+            android:text="WindDir"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/WindMphShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="272dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Wind_mphView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="272dp"
+            android:text="windMph"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ConditionTextShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="216dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ConditionTextView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="216dp"
+            android:text="ConditionTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/temp_FShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="152dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/temp_f"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="160dp"
+            android:text="temp_f"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/temp_cShowingView"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="108dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/WindKphShowing"
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="324dp"
+            android:text="temperature min."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Windkph"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="324dp"
+            android:text="WindKph"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/temp_cView"
+            android:layout_width="157dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="108dp"
+            android:text="temp c"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/nameShowingView"
+        android:layout_width="117dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="68dp"
+        android:text="name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
